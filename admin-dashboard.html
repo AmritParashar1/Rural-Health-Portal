@@ -17,7 +17,7 @@
       
         <!-- Center: Admin Dashboard -->
         <div class="mx-auto">
-          <h2 class="text-xl font-semibold text-gray-800">Admin Dashboard</h2>
+          <h2 class="text-xl font-semibold text-gray-800">Healthcare Worker Dashboard</h2>
         </div>
       
         <!-- Right: Logout -->
@@ -43,7 +43,7 @@
     <main class="flex-1 p-6">
       <!-- Dashboard Overview -->
       <section id="dashboard" class="mb-8">
-        <h2 class="text-2xl font-bold text-gray-800">Welcome, Admin!</h2>
+        <h2 class="text-2xl font-bold text-gray-800">Welcome!</h2>
         <p class="mt-2 text-gray-600">Overview of system statistics and recent activities.</p>
         <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- Total Patients Card -->
@@ -77,6 +77,7 @@
                 <th class="py-2 px-4 text-left">Age</th>
                 <th class="py-2 px-4 text-left">Last Visit</th>
                 <th class="py-2 px-4 text-left">Status</th>
+                <th class="py-2 px-4 text-left">Actions</th>
               </tr>
             </thead>
             <tbody class="text-gray-700">
@@ -86,6 +87,11 @@
                 <td class="py-2 px-4">45</td>
                 <td class="py-2 px-4">12 March 2025</td>
                 <td class="py-2 px-4">Active</td>
+                <td class="py-2 px-4">
+                  <button class="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700">
+                    Update
+                  </button>
+                </td>
               </tr>
               <tr class="border-b">
                 <td class="py-2 px-4">#P002</td>
@@ -93,11 +99,17 @@
                 <td class="py-2 px-4">38</td>
                 <td class="py-2 px-4">09 March 2025</td>
                 <td class="py-2 px-4">Active</td>
+                <td class="py-2 px-4">
+                  <button class="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700">
+                    Update
+                  </button>
+                </td>
               </tr>
-              <!-- Add more rows as required -->
+              <!-- Add more rows as needed -->
             </tbody>
           </table>
         </div>
+        
       </section>
 
       <!-- Health Camps Section -->
